@@ -1,0 +1,23 @@
+{
+  "GeneralGAParameters": {
+    "PopulationSize": 200,
+    "Elitism": 5,
+    "MutationRate": 0.01
+  },
+  "PlanetVisualParameters": {
+    "PlanetSizeNewMin": 10,
+    "PlanetSizeNewMax": 100,
+    "OrbitSizeNewMin": 50,
+    "OrbitSizeNewMax": 500,
+    "RotationDurationNewMin": 0.5,
+    "RotationDurationNewMax": 5.0
+  },
+  "FitnessEvaluationParameters": {
+    "WindowSize": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "OverlapWeight": 0.8,
+    "ProportionalSizeWeight": 0.2
+  }
+}
